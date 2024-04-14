@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <main>
         <h1 className={styles.title}>
           Hola soy Miguel Rosas Villalobos
+          <Link href="/about"> Acerca de mi</Link>
         </h1>
       </main>
 
