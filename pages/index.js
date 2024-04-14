@@ -1,14 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Link from 'next/link';
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",  // <=== enables static exports
-  reactStrictMode: true,
-};
-
-module.exports = nextConfig;
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -19,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Read <Link href="/about">About </Link> Miguel Rosas
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
