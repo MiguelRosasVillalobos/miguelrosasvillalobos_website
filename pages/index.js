@@ -2,6 +2,13 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",  // <=== enables static exports
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
 export default function Home() {
   return (
     <div className={styles.container}>
