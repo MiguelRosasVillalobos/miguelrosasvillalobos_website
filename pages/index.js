@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import Image from 'next/image'
+import profilePic from '../public/CV_photo.jpg'
 
 export default function Home() {
   return (
@@ -15,6 +17,14 @@ export default function Home() {
           Hola soy Miguel Rosas Villalobos
           <Link href="/about"> Acerca de mi</Link>
         </h1>
+      <Image
+      src={profilePic}
+      alt="Picture of the author"
+      // width={500} automatically provided
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+      />
       </main>
     </div>
   );
