@@ -17,6 +17,9 @@ export default function Home() {
           Hola soy Miguel Rosas Villalobos
           <Link href="/about"> Acerca de mi</Link>
         </h1>
+        <p className={styles.description}>
+        Soy un Ingeniero en Computación con experiencia en desarrollo de software y sistemas embebidos.
+        </p>
       </main>
     </div>
   );
