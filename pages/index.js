@@ -17,19 +17,6 @@ export default function Home() {
           Hola soy Miguel Rosas Villalobos
           <Link href="/about"> Acerca de mi</Link>
         </h1>
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <Image
-            alt="Mountains"
-            // Importing an image will
-            // automatically set the width and height
-            src={profilePic}
-            sizes="100vw"
-            // Make the image display full width
-            style={{
-              width: '100%',
-              height: 'auto',
-            }}
-          />
       </main>
     </div>
   );
