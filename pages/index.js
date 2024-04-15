@@ -17,12 +17,19 @@ export default function Home() {
           Hola soy Miguel Rosas Villalobos
           <Link href="/about"> Acerca de mi</Link>
         </h1>
-      <Image
-      src={profilePic}
-      alt="Picture of the author"
-      width={20rem} automatically provided
-      height={20rem} automatically provided
-      />
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <Image
+            alt="Mountains"
+            // Importing an image will
+            // automatically set the width and height
+            src={profilePic}
+            sizes="100vw"
+            // Make the image display full width
+            style={{
+              width: '100%',
+              height: 'auto',
+            }}
+          />
       </main>
     </div>
   );
