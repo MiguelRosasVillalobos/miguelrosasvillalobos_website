@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import Image from 'next/image'
 import profilePic from '../public/CV_photo.jpg'
+import Navigation from '../components/navigation';
 
 export default function Home() {
   return (
@@ -13,13 +14,11 @@ export default function Home() {
       </Head>
 
       <main>
+      <Navigation/>
         <h1 className={styles.title}>
           Hola soy Miguel Rosas Villalobos
           <Link href="/about"> Acerca de mi</Link>
         </h1>
-        <p className={styles.description}>
-        Soy un Ingeniero en Computación con experiencia en desarrollo de software y sistemas embebidos.
-        </p>
       </main>
     </div>
   );
