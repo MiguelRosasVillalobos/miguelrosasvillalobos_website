@@ -12,12 +12,10 @@ export default function Home() {
         <title>Miguel Rosas Villalobos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
       <Navigation/>
         <h1 className={styles.title}>
-          Hola soy Miguel Rosas Villalobos
-          <Link href="/about"> Acerca de mi</Link>
+        Hello there! I'm Miguel Rosas Villalobos
         </h1>
       </main>
     </div>
