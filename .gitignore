@@ -1,0 +1,4 @@
+resources/
+go.sum
+public/
+assets/jsconfig.json
