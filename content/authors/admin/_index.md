@@ -23,7 +23,6 @@ role: Bachelor of Science in Engineering
 organizations:
   - name: Universidad del Bio Bio
     url: https://www.ubiobio.cl
-
 # Short bio (displayed in user profile at end of posts)
 bio: Undergraduate student of Mechanical Civil Engineering with great motivation to develop his skills in the area of science, he stands out for his rigorousness and discipline in the tasks he undertakes, his insatiable curiosity and permanent self-demand.
 
@@ -44,35 +43,34 @@ education:
 skills:
   - name: Technical
     items:
+      - name: OpenFOAM 
+        description: ''
+        icon: water
+        icon_pack: fas
+      - name: Shell scripting 
+        description: ''
+        icon: terminal
+        icon_pack: fas
+      - name: Linux 
+        description: ''
+        icon: linux
+        icon_pack: fab
       - name: Python
         description: ''
         icon: python
         icon_pack: fab
-      - name: Data Science
-        description: ''
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        icon: database
-        icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        icon: person-hiking
-        icon_pack: fas
       - name: Cats
         description: ''
         icon: cat
         icon_pack: fas
-      - name: Photography
+      - name: Gaming
         description: ''
-        icon: camera-retro
+        icon: gamepad 
         icon_pack: fas
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -90,6 +88,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/miguel-rosas-villalobos/
+  - icon: orcid 
+    icon_pack: fab
+    link: https://orcid.org/0000-0001-6424-984X
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
