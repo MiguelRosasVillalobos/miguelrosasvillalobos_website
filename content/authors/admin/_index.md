@@ -30,6 +30,7 @@ bio: Undergraduate student of Mechanical Civil Engineering with great motivation
 interests:
   - Numerical Simulation 
   - OpenFOAM
+  - High Energy Physics
 
 # Education to show in About widget
 education:
@@ -59,6 +60,14 @@ skills:
         description: ''
         icon: python
         icon_pack: fab
+      - name: Julia
+        description: ''
+        icon: 
+        icon_pack: fas
+      - name: LaTeX
+        description: ''
+        icon: pen
+        icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -71,6 +80,11 @@ skills:
         description: ''
         icon: gamepad 
         icon_pack: fas
+      - name: Gardening
+        description: ''
+        icon: pagelines
+        icon_pack: fas
+
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
