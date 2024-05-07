@@ -43,6 +43,8 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Technical
+    color: '#5dd2e3'
+    color_border: '#159eb2'
     items:
       - name: OpenFOAM 
         description: ''
@@ -69,11 +71,12 @@ skills:
         icon: pen
         icon_pack: fas
   - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+    color: '#4370e7'
+    color_border: '#0b39b0'
     items:
       - name: Cats
         description: ''
+        height: '5px'
         icon: cat
         icon_pack: fas
       - name: Gaming
@@ -116,5 +119,5 @@ social:
 highlight_name: true
 ---
 
-I am a passionate mechanical engineer with a strong interest in computational fluid dynamics (CFD) and numerical simulations. My expertise lies in utilizing OpenFOAM, an open-source CFD software package, to solve complex fluid flow problems. I have experience in simulating a wide range of fluid flow phenomena, from laminar to turbulent flows, and I am constantly exploring new techniques to improve simulation accuracy and efficiency.
+I am a passionate mechanical engineer with a strong interest in computational fluid dynamics (CFD) and numerical simulations. My expertise lies in utilizing OpenFOAM, an open-source CFD software package, to solve complex fluid flow problems. I have experience in simulating a wide range of fluid flow phenomena, from laminar to turbulent flows, and I am constantly exploring new techniques to improve simulation accuracy and efficiency .
 {style="text-align: justify;"}
