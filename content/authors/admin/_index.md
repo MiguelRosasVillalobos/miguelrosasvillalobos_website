@@ -87,7 +87,14 @@ skills:
         description: ''
         icon: pagelines
         icon_pack: fas
-
+      - name: Handyman
+        description: ''
+        icon: tools
+        icon_pack: fas
+      - name: Cooking
+        description: ''
+        icon: kitchen-set
+        icon_pack: fas
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
