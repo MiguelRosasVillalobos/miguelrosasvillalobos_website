@@ -48,7 +48,7 @@ sections:
               * CS230033: Newtonian Physics.
               * CS230040: Electromagnetism.
               * CS230035: Waves, Optics and Modern Physics.
-        - title: Embajador
+        - title: Ambassador
           company: Pan-American Ocean Energy Students
           company_url: ''
           company_logo: 
