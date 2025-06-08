@@ -82,47 +82,47 @@ sections:
       columns: '2'
       view: citation
 
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-      design:
-        columns: '2'
-        view: compact
-      items:
-        - title: Optimization of Porous Media in Wave Banks to Reduce Flumes Reflection Using Numerical Simulation
-          event: XVI CIBIM - 2024
-          date: 2024
-          location: Concepción, Chile
-          description: |2-
-            Oral Presentation at the XVI CIBIM - 2024, discussing numerical simulation methods for optimizing porous media in wave banks.
-        - title: Optimization of Porous Media in Wave Flumes to Reduce Wave Reflection Using Numerical Simulation
-          event: Chilean Physics Symposium - 2024
-          date: 2024
-          location: Temuco, Chile
-          description: |2-
-            Poster presentation at the Chilean Physics Symposium - 2024, presenting research on reducing wave reflection through porous media optimization.
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #     design:
+  #       columns: '2'
+  #       view: compact
+  #     items:
+  #       - title: Optimization of Porous Media in Wave Banks to Reduce Flumes Reflection Using Numerical Simulation
+  #         event: XVI CIBIM - 2024
+  #         date: 2024
+  #         location: Concepción, Chile
+  #         description: |2-
+  #           Oral Presentation at the XVI CIBIM - 2024, discussing numerical simulation methods for optimizing porous media in wave banks.
+  #       - title: Optimization of Porous Media in Wave Flumes to Reduce Wave Reflection Using Numerical Simulation
+  #         event: Chilean Physics Symposium - 2024
+  #         date: 2024
+  #         location: Temuco, Chile
+  #         description: |2-
+  #           Poster presentation at the Chilean Physics Symposium - 2024, presenting research on reducing wave reflection through porous media optimization.
 
-  - block: collection
-    id: posters
-    content:
-      title: Recent & Upcoming Posters
-      filters:
-        folders:
-          - event
-      design:
-        columns: '2'
-        view: compact
-      items:
-        - title: Optimization of Porous Media in Wave Flumes to Reduce Wave Reflection Using Numerical Simulation
-          event: Chilean Physics Symposium - 2024
-          date: 2024
-          location: Temuco, Chile
-          description: |2-
-            Poster presentation at the Chilean Physics Symposium - 2024, focused on optimization techniques for wave flumes.
+  # - block: collection
+  #   id: posters
+  #   content:
+  #     title: Recent & Upcoming Posters
+  #     filters:
+  #       folders:
+  #         - event
+  #     design:
+  #       columns: '2'
+  #       view: compact
+  #     items:
+  #       - title: Optimization of Porous Media in Wave Flumes to Reduce Wave Reflection Using Numerical Simulation
+  #         event: Chilean Physics Symposium - 2024
+  #         date: 2024
+  #         location: Temuco, Chile
+  #         description: |2-
+  #           Poster presentation at the Chilean Physics Symposium - 2024, focused on optimization techniques for wave flumes.
   - block: contact
     id: contact
     content:
