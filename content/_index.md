@@ -22,115 +22,50 @@ sections:
   - block: experience
     content:
       title: Experience
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Teaching Assistantship
-          company: Universidad del Bío Bío
+        - title: CFD Simulator
+          company: Kendel
+          company_url: 'www.kendel.cl'
+          company_logo: 
+          location: Chile
+          date_start: '2025-01-01'
+          date_end: ''
+          description: |2-
+              Performing simulations of brine discharges in marine environments using OpenFOAM.
+              Developing technical reports on simulations and automating processes using Bash scripts to optimize execution and data analysis.
+        - title: Mechanical Analyst
+          company: Hibring
+          company_url: 'www.hibring.cl'
+          company_logo: 
+          location: Chile
+          date_start: '2024-12-01'
+          date_end: '2025-01-01'
+          description: |2-
+              Applied advanced Mechanical Engineering knowledge to industrial processes with high physical relevance.
+              Utilized CFD simulations to analyze and optimize complex systems in mechanical engineering contexts.
+        - title: Teaching Assistant
+          company: Universidad del Bío-Bío
           company_url: 'https://www.ubiobio.cl'
           company_logo: 
-          location: Concepción, Chile 
+          location: Concepción, Chile
           date_start: '2021-07-01'
           date_end: ''
           description: |2-
-              Courses include:
-
-              * CS440282: Computational Fluid Dynamics
-              * CS440400: Mathematical Methods in Mechanical Engineering
-              * CS440174: Statics.
-              * CS440200: Programming with Mechanical Engineering Software.
-              * CS230033: Newtonian Physics.
-              * CS230040: Electromagnetism.
-              * CS230035: Waves, Optics and Modern Physics.
+              Supporting the teaching of practical sessions and theoretical classes in subjects such as Fundamental Physics, Statics, Programming, and CFD.
+              Assisted Master’s students in Mechanical Engineering with advanced CFD and Mathematical Methods courses.
+              Supervisor: Fabián Pierart, Lecturer, Department of Mechanical Engineering.
         - title: Ambassador
           company: Pan-American Ocean Energy Students
           company_url: ''
           company_logo: 
-          location: Chile 
+          location: Chile
           date_start: '2022-02-01'
           date_end: '2024-01-01'
-          description: Generate opportunities for international communication on marine energy developments.
+          description: |2-
+              Generate opportunities for international communication on marine energy developments, fostering collaboration and knowledge exchange.
     design:
       columns: '2'
-      #- block: collection
-      # id: posts
-      #content:
-      #title: Recent Posts
-      #subtitle: ''
-      #text: ''
-      ## Choose how many pages you would like to display (0 = all pages)
-      #count: 5
-      # Filter on criteria
-      #filters:
-      #folders:
-        # - post
-          #author: ""
-        #category: ""
-        #tag: ""
-        #exclude_featured: false
-        #exclude_future: false
-        #exclude_past: false
-        #publication_type: ""
-      # Choose how many pages you would like to offset by
-        # offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      #order: desc
-      #design:
-      # Choose a layout view
-    # view: compact
-      #  columns: '2'
-      #- block: portfolio
-      #id: projects
-      #content:
-      #title: Projects
-      #filters:
-      #  folders:
-      #    - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      #default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      #buttons:
-      #  - name: All
-      #    tag: '*'
-      #  - name: Deep Learning
-      #    tag: Deep Learning
-      #  - name: Other
-      #   tag: Demo
-      #design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      #columns: '1'
-      #view: showcase
-      # For Showcase view, flip alternate rows?
-      #flip_alt_rows: false
-      #- block: markdown
-      #content:
-      #title: Gallery
-      #subtitle: ''
-      #text: |-
-      #  {{< gallery album="demo" >}}
-      #design:
-      #columns: '1'
-      #- block: collection
-      #id: featured
-      #content:
-      #title: Featured Publications
-      #filters:
-      #  folders:
-      #    - publication
-      #  featured_only: true
-      #design:
-      #columns: '2'
-      #view: card
   - block: collection
     id: featured
     content:
@@ -146,16 +81,48 @@ sections:
     design:
       columns: '2'
       view: citation
-      #- block: collection
-      #id: talks
-      #content:
-      # title: Recent & Upcoming Talks
-      #filters:
-      #  folders:
-      #   - event
-      #design:
-      #columns: '2'
-      #view: compact
+
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+      design:
+        columns: '2'
+        view: compact
+      items:
+        - title: Optimization of Porous Media in Wave Banks to Reduce Flumes Reflection Using Numerical Simulation
+          event: XVI CIBIM - 2024
+          date: 2024
+          location: Concepción, Chile
+          description: |2-
+            Oral Presentation at the XVI CIBIM - 2024, discussing numerical simulation methods for optimizing porous media in wave banks.
+        - title: Optimization of Porous Media in Wave Flumes to Reduce Wave Reflection Using Numerical Simulation
+          event: Chilean Physics Symposium - 2024
+          date: 2024
+          location: Temuco, Chile
+          description: |2-
+            Poster presentation at the Chilean Physics Symposium - 2024, presenting research on reducing wave reflection through porous media optimization.
+
+  - block: collection
+    id: posters
+    content:
+      title: Recent & Upcoming Posters
+      filters:
+        folders:
+          - event
+      design:
+        columns: '2'
+        view: compact
+      items:
+        - title: Optimization of Porous Media in Wave Flumes to Reduce Wave Reflection Using Numerical Simulation
+          event: Chilean Physics Symposium - 2024
+          date: 2024
+          location: Temuco, Chile
+          description: |2-
+            Poster presentation at the Chilean Physics Symposium - 2024, focused on optimization techniques for wave flumes.
   - block: contact
     id: contact
     content:
