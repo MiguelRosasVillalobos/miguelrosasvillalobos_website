@@ -17,24 +17,27 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Bachelor of Science in Engineering
+role: M.Sc. Student in Physics | Mechanical Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Universidad del Bio Bio
     url: https://www.ubiobio.cl
 # Short bio (displayed in user profile at end of posts)
-bio: Undergraduate student of Mechanical Civil Engineering with great motivation to develop his skills in the area of science, he stands out for his rigorousness and discipline in the tasks he undertakes, his insatiable curiosity and permanent self-demand.
+bio: I am a mechanical engineer with a strong passion for computational simulation, specializing in the use of OpenFOAM to solve complex fluid dynamics problems. Currently pursuing a Master's in Physical Sciences, my research focuses on particle physics, specifically studying sum rules in Quantum Chromodynamics (QCD) to obtain hadronic properties.
 
 # Interests to show in About widget
 interests:
+  - High Energy Physics
   - Numerical Simulation 
   - OpenFOAM
-  - High Energy Physics
 
 # Education to show in About widget
 education:
   courses:
+    - course: M.Sc. in Physics 
+      institution: Universidad del Bio Bio 
+      year: 2026
     - course: BSc in Science in Engineering
       institution: Universidad del Bio Bio 
       year: 2024
